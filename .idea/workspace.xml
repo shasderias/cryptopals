@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a91f30a-a7d6-4015-87a9-2e5175a3eb2e" name="Default Changelist" comment="" />
+    <list default="true" id="6a91f30a-a7d6-4015-87a9-2e5175a3eb2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="cryptopals" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -18,21 +18,25 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\bindev\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1alSMl2WVDCL0myHLmghAmoEouq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dchat" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -42,89 +46,82 @@
       <recent name="C:\dev\cryptopals\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCalcStringStats in cryptopals/ptscore">
-    <configuration name="TestCalcStringStats in cryptopals/ptscore" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestEncryptDecrypt in github.com/shasderias/cryptopals/cbc">
+    <configuration name="TestEncodedProfileFor in github.com/shasderias/cryptopals/set2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="cryptopals" />
-      <working_directory value="$PROJECT_DIR$/ptscore" />
+      <working_directory value="$PROJECT_DIR$/set2" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="cryptopals/ptscore" />
+      <package value="github.com/shasderias/cryptopals/set2" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestCalcStringStats$" />
+      <pattern value="^TestEncodedProfileFor$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHamming in cryptopals/strdist (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEncryptDecrypt in github.com/shasderias/cryptopals/cbc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="cryptopals" />
-      <working_directory value="$PROJECT_DIR$/strdist" />
+      <working_directory value="$PROJECT_DIR$/cbc" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="cryptopals/strdist" />
+      <package value="github.com/shasderias/cryptopals/cbc" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestHamming$" />
+      <pattern value="^TestEncryptDecrypt$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestPKCS7 in cryptopals/padding" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPKCS7 in github.com/shasderias/cryptopals/padding" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="cryptopals" />
       <working_directory value="$PROJECT_DIR$/padding" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="cryptopals/padding" />
+      <package value="github.com/shasderias/cryptopals/padding" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestPKCS7$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestRotatingKey in cryptopals/xor" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPKCS7ValidateAndStrip in github.com/shasderias/cryptopals/padding" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="cryptopals" />
-      <working_directory value="$PROJECT_DIR$/xor" />
+      <working_directory value="$PROJECT_DIR$/padding" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="cryptopals/xor" />
+      <package value="github.com/shasderias/cryptopals/padding" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestRotatingKey$" />
+      <pattern value="^TestPKCS7ValidateAndStrip$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSplitAndTranspose in cryptopals/set1 (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProfileEncryptDecrypt in github.com/shasderias/cryptopals/set2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="cryptopals" />
-      <working_directory value="$PROJECT_DIR$/set1" />
+      <working_directory value="$PROJECT_DIR$/set2" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="cryptopals/set1" />
+      <package value="github.com/shasderias/cryptopals/set2" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSplitAndTranspose$" />
+      <pattern value="^TestProfileEncryptDecrypt$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCalcStringStats in cryptopals/ptscore" />
-        <item itemvalue="Go Test.TestSplitAndTranspose in cryptopals/set1 (1)" />
-        <item itemvalue="Go Test.TestPKCS7 in cryptopals/padding" />
-        <item itemvalue="Go Test.TestRotatingKey in cryptopals/xor" />
-        <item itemvalue="Go Test.TestHamming in cryptopals/strdist (1)" />
+        <item itemvalue="Go Test.TestEncryptDecrypt in github.com/shasderias/cryptopals/cbc" />
+        <item itemvalue="Go Test.TestPKCS7ValidateAndStrip in github.com/shasderias/cryptopals/padding" />
+        <item itemvalue="Go Test.TestProfileEncryptDecrypt in github.com/shasderias/cryptopals/set2" />
+        <item itemvalue="Go Test.TestPKCS7 in github.com/shasderias/cryptopals/padding" />
+        <item itemvalue="Go Test.TestEncodedProfileFor in github.com/shasderias/cryptopals/set2" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="direct" />
+      </map>
+    </environment>
     <proxy>direct</proxy>
   </component>
   <component name="WindowStateProjectService">
@@ -136,45 +133,53 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="629" y="302" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587310148869" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1587702575736">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1587919409031">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587702575736" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1587702575735">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1587919409031" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1588854398216">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587702575735" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1587702575735">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588854398216" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1588854398216">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587702575735" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1587702575735">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588854398216" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1588854398216">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587702575735" />
-    <state width="1877" height="354" key="GridCell.Tab.1.bottom" timestamp="1587485296465">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588854398216" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1588854398216">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="354" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587485296465" />
-    <state width="1877" height="354" key="GridCell.Tab.1.center" timestamp="1587485296465">
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588854398216" />
+    <state width="1877" height="354" key="GridCell.Tab.1.bottom" timestamp="1588692155494">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="354" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587485296465" />
-    <state width="1877" height="354" key="GridCell.Tab.1.left" timestamp="1587485296465">
+    <state width="1877" height="354" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588692155494" />
+    <state width="1877" height="354" key="GridCell.Tab.1.center" timestamp="1588692155494">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="354" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587485296465" />
-    <state width="1877" height="354" key="GridCell.Tab.1.right" timestamp="1587485296465">
+    <state width="1877" height="354" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588692155494" />
+    <state width="1877" height="354" key="GridCell.Tab.1.left" timestamp="1588692155494">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="354" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587485296465" />
+    <state width="1877" height="354" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588692155494" />
+    <state width="1877" height="354" key="GridCell.Tab.1.right" timestamp="1588692155494">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="354" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588692155494" />
     <state x="461" y="166" key="SettingsEditor" timestamp="1587310149887">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="166" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1587310149887" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1587699842528">
+    <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1588378011783">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1587699842528" />
+    <state x="667" y="258" width="585" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1588378011783" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1588821172558">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1588821172558" />
   </component>
 </project>
