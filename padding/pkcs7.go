@@ -29,16 +29,16 @@ func PKCS7Strip(b []byte) []byte {
 	return b[:len(b)-int(bytesToStrip)]
 }
 
-func PKCS7ValidateAndStrip(b []byte, bs int) (error, []byte) {
+func PKCS7ValidateAndStrip(b []byte, bs int) ([]byte, error) {
 	if len(b)%bs != 0 {
-		return ErrInvalidBlockSize, nil
+		return nil, ErrInvalidBlockSize
 	}
 	l := len(b)
 	bytesToStrip := b[l-1]
 	for i := l - int(bytesToStrip); i < len(b); i++ {
 		if b[i] != bytesToStrip {
-			return ErrInvalidPKCS7Padding, nil
+			return nil, ErrInvalidPKCS7Padding
 		}
 	}
-	return nil, PKCS7Strip(b)
+	return PKCS7Strip(b), nil
 }

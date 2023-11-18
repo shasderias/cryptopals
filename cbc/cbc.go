@@ -35,6 +35,31 @@ func Decrypt(cipher cipher.Block, iv []byte, cipherText []byte) []byte {
 	return plainText
 }
 
+func DecryptAndCheckPadding(cipher cipher.Block, iv, cipherText []byte) ([]byte, error) {
+	bs := cipher.BlockSize()
+
+	if len(iv) != cipher.BlockSize() {
+		panic("iv must be the same size as cipher's block size")
+	}
+	if len(cipherText)%bs != 0 {
+		panic("length of cipherText must be a multiple of block size")
+	}
+
+	plainText := make([]byte, len(cipherText))
+
+	ptBlocks := blocks.NewSlice(plainText, bs)
+	ctBlocks := blocks.NewSlice(cipherText, bs)
+	prevBlock := iv
+
+	for i := 0; i < ctBlocks.Len(); i++ {
+		cipher.Decrypt(ptBlocks.N(i), ctBlocks.N(i))
+		xor.Fixed(ptBlocks.N(i), ptBlocks.N(i), prevBlock)
+		prevBlock = ctBlocks.N(i)
+	}
+
+	return padding.PKCS7ValidateAndStrip(plainText, bs)
+}
+
 func DecryptWithoutStrippingPadding(cipher cipher.Block, iv []byte, cipherText []byte) []byte {
 	bs := cipher.BlockSize()
 
